@@ -20,14 +20,14 @@ def answer(word1, word2):
     if type(word1) is not str or type(word2) is not str:
         return 0
     
-    elif word2 == 'learn':
+    elif word2 == 'learn' and word1 != 'learn':
         return 3
     elif len(word1) > len(word2):
         return 2
     elif word1 == word2:
         return 1
     else:
-        return "попробуй по другому"
+        return "попробуй по-другому"
     
 
 
@@ -42,7 +42,10 @@ def main():
     print(answer('1' , '1'))
     print(answer('11' , '1'))
     print(answer('1' , 'learn'))
-    print(answer('nojl,',"xxxdfv"))
+    print(answer('nojlfvffhh,',"learn"))
+    print(answer('learn,',"learn"))
+    print(answer('learn' , 'learning'))
+    print(answer('python' , 'python'))
 
 if __name__ == "__main__":
     main()
