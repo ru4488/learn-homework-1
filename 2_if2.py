@@ -20,7 +20,7 @@ def answer(word1, word2):
     if type(word1) is not str or type(word2) is not str:
         return 0
     
-    elif word2 == 'learn' and len(word1) < len(word2) and len(word1) != len(word2) :
+    elif word2 == 'learn':
         return 3
     elif len(word1) > len(word2):
         return 2
