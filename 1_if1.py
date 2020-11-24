@@ -29,16 +29,17 @@
 age = int(input("Каков твой возраст юный друг: "))
 
 def job(age):
-  if 0 <= age < 3:
-    return("Надо дома сидеть с масмочкой") 
-  elif 3 <= age < 7:
-    return("Пора бы уже в сдаик пойти")
-  elif 7 <= age < 24:
-    return("Учиться, читься, учиться (с)")
-  elif 24 <= age:
-    return("Пожил и хватит")
-  else: 
+  if age < 0:
     return('не плохо былоб родиться')
+  elif 0 <= age <= 3:
+    return("Надо дома сидеть с масмочкой") 
+  elif age <= 7:
+    return("Пора бы уже в сдаик пойти")
+  elif age <= 24:
+    return("Учиться, читься, учиться (с)")
+  else:
+    return("Пожил и хватит")
+  
 print(job(age))  
 
 

@@ -14,33 +14,35 @@
   и выводя на экран результаты
 
 """
-def word(old_word1, old_word2):
-    old_word1 = input("первое слов: ")
-    old_word2 = input("второе слово: ")
-    return old_word1, old_word2
+
 
 def answer(word1, word2):
-    if word2 == 'learn' and len(word1) < len(word2) and len(word1) != len(word2) :
+    if type(word1) is not str and type(word2) is not str:
+        return 0
+    
+    elif word2 == 'learn' and len(word1) < len(word2) and len(word1) != len(word2) :
         return 3
     elif len(word1) > len(word2):
         return 2
     elif word1 == word2:
         return 1
-    elif type(word1) is str and type(word2) is str:
-        return 0
+    else:
+        return "попробуй по другому"
+    
 
 
-old_word1 = ''
-old_word2 = ''
-word1, word2 = word(old_word1, old_word2)
-print(answer(word1, word2))
 
 
-word1, word2 = word(old_word1, old_word2)
-print(answer(word1, word2))
+def main():
+    """
+    Эта функция вызывается автоматически при запуске скрипта в консоли
+    В ней надо заменить pass на ваш код
+    """
+    print(answer(1 , 1))
+    print(answer('1' , '1'))
+    print(answer('11' , '1'))
+    print(answer('1' , 'learn'))
+    print(answer('nojl,',"xxxdfv"))
 
-word1, word2 = word(old_word1, old_word2)
-print(answer(word1, word2))
-
-word1, word2 = word(old_word1, old_word2)
-print(answer(word1, word2))
+if __name__ == "__main__":
+    main()
