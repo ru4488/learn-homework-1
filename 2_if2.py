@@ -17,7 +17,7 @@
 
 
 def answer(word1, word2):
-    if type(word1) is not str and type(word2) is not str:
+    if type(word1) is not str or type(word2) is not str:
         return 0
     
     elif word2 == 'learn' and len(word1) < len(word2) and len(word1) != len(word2) :
@@ -38,7 +38,7 @@ def main():
     Эта функция вызывается автоматически при запуске скрипта в консоли
     В ней надо заменить pass на ваш код
     """
-    print(answer(1 , 1))
+    print(answer('1' , 1))
     print(answer('1' , '1'))
     print(answer('11' , '1'))
     print(answer('1' , 'learn'))
