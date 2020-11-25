@@ -14,8 +14,11 @@ def hello_user():
     """
     Замените pass на ваш код
     """
-    pass
+    hello = ""
+    while hello.lower().capitalize() != 'Хорошо':
+        hello = input('Как дела?  ') 
+              
+    print('Ну и славненько')
 
-    
 if __name__ == "__main__":
     hello_user()

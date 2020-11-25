@@ -15,13 +15,14 @@
     
 """
 
-questions_and_answers = {}
+questions_and_answers = {'Как дела?' : "Норм" , "Что нового?" : "Ничего" , "Что делаешь?" : "Отвечаю на вопросы мешка с костями" , "Какие планы?" : "Отвечать", 'Пока' : 'Иди иди'}
 
 def ask_user(answers_dict):
-    """
-    Замените pass на ваш код
-    """
-    pass
+    questions = ''
+    while questions.lower().capitalize()  != 'Пока':
+        questions = input('Спросишь? Я отвечу  ')
+        print(questions_and_answers.get(questions.lower().capitalize()  , "не знаю, что и сказать, если хочешь попрощаться скажи 'Пока' "))
+        
     
 if __name__ == "__main__":
     ask_user(questions_and_answers)
