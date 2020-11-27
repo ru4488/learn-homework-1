@@ -13,7 +13,8 @@
 
 """
 import logging
-
+import setting
+import ephem 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
@@ -22,10 +23,10 @@ logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
 
 
 PROXY = {
-    'proxy_url': 'socks5://t1.learn.python.ru:1080',
+    'proxy_url': setting.PROXY_URL,
     'urllib3_proxy_kwargs': {
-        'username': 'learn',
-        'password': 'python'
+        'username' : setting.PROXY_USERNAME,
+        'password': setting.PROXY_PASSWORD
     }
 }
 
@@ -41,12 +42,21 @@ def talk_to_me(update, context):
     print(user_text)
     update.message.reply_text(text)
 
+def space(update, context):
+    new_text = update.message.text.split()
+    data = '2020/11/27'
+    planet_str = new_text[1]
+    planet = getattr(ephem, planet_str)(data)
+    
+    update.message.reply_text(ephem.constellation(planet))
+
 
 def main():
-    mybot = Updater("КЛЮЧ, КОТОРЫЙ НАМ ВЫДАЛ BotFather", request_kwargs=PROXY, use_context=True)
+    mybot = Updater(setting.API_KEY, request_kwargs=PROXY, use_context=True)
 
     dp = mybot.dispatcher
     dp.add_handler(CommandHandler("start", greet_user))
+    dp.add_handler(CommandHandler("planet", space))
     dp.add_handler(MessageHandler(Filters.text, talk_to_me))
 
     mybot.start_polling()

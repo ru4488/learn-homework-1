@@ -1,0 +1,421 @@
+apscheduler.scheduler - INFO - Scheduler started
+apscheduler.scheduler - INFO - Scheduler started
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 43, in talk_to_me
+    update.message.reply_text(text)
+NameError: name 'text' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 43, in talk_to_me
+    update.message.reply_text(text)
+NameError: name 'text' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 43, in talk_to_me
+    update.message.reply_text(text)
+NameError: name 'text' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 43, in talk_to_me
+    update.message.reply_text(text)
+NameError: name 'text' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 48, in space
+    a = ephem.constellation(new_text[1])
+IndexError: list index out of range
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 48, in space
+    a = ephem.constellation(new_text[1])
+ValueError: the sequence specifying a position must have exactly two coordinates
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 48, in space
+    a = ephem.constellation(new_text[1])
+IndexError: list index out of range
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 48, in space
+    a = ephem.constellation(new_text[1])
+IndexError: list index out of range
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 48, in space
+    a = ephem.constellation(new_text[1])
+ValueError: the sequence specifying a position must have exactly two coordinates
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 48, in space
+    check_in_body = ephem.constellation(new_text[1])
+IndexError: list index out of range
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 48, in space
+    check_in_body = ephem.constellation(new_text[1])
+ValueError: the sequence specifying a position must have exactly two coordinates
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 50, in space
+    constellation = ephem.check_in_body(data)
+AttributeError: module 'ephem' has no attribute 'check_in_body'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 48, in space
+    were_planet = ephem.planet(data)
+AttributeError: module 'ephem' has no attribute 'planet'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = planet('2020/11/27')
+TypeError: 'list' object is not callable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = planet[1]('2020/11/27')
+TypeError: 'str' object is not callable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = planet[1]('2020')
+TypeError: 'str' object is not callable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = "Mars"('2020')
+TypeError: 'str' object is not callable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 50, in space
+    m = ephem.Mars()
+NameError: name 'ephem' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(ephen.name, next_text[1])
+NameError: name 'ephen' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(ephen.name, next_text[1])
+NameError: name 'ephen' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(ephen.next_text[1], next_text[1])
+NameError: name 'ephen' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(ephem.next_text[1], next_text[1])
+NameError: name 'ephem' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(ephem.next_text[1], next_text[1])
+NameError: name 'ephem' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(next_text[1], next_text[1])
+NameError: name 'next_text' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(new_text[1], new_text[1])
+AttributeError: 'str' object has no attribute 'Mars'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(new_text[1], new_text[1])
+AttributeError: 'str' object has no attribute 'Mars'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(ephem.new_text[1], new_text[1])
+NameError: name 'ephem' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    were_planet = getattr(ephem.new_text[1], new_text[1])
+NameError: name 'ephem' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    planet = getattr(ephem, new_text[1])('2020/11/27')
+NameError: name 'ephem' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    planet = getattr(ephem, new_text[1])('2020/11/27')
+NameError: name 'ephem' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    planet = getattr(ephem, new_text[1])('2020/11/27')
+NameError: name 'ephem' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kot\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "8_ephem_bot.py", line 49, in space
+    planet = getattr(ephem, new_text[1])('2020/11/27')
+NameError: name 'ephem' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
